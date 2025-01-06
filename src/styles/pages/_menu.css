@@ -1,0 +1,36 @@
+:root {
+    --color1: #8F6253; 
+    --color2: #D8C4B7; 
+    --color3: #4B322A; 
+    --color4: #BD9D87; 
+    --color5: #FFFFFF; 
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--color4);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 4em;
+    padding: 2em;
+}
+
+.menu-category {
+    padding: 1em;
+}
+
+.menu-category h3 {
+    padding-top: 0.5em;
+}
+
+.menu-item  p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5em;
+    padding-bottom: 1em;
+    
+}

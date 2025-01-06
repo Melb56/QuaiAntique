@@ -1,3 +1,42 @@
-nav {
-    background: var(--color3);
+:root {
+    --color1: #8F6253; 
+    --color2: #D8C4B7; 
+    --color3: #4B322A; 
+    --color4: #BD9D87; 
+    --color5: #FFFFFF; 
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em; 
+    background-color: var(--color3);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color5);
+}
+
+.nav-link {
+    color: var(--color5);
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--color1);
+}
+
+.navbar-toggler {
+    color: var(--color4);
+}
+
+.navbar-toggler-icon {
+    background-image: url("/src/img/icon-menu.svg"); 
+}
+
+
+
+

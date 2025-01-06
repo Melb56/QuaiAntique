@@ -1,0 +1,52 @@
+:root {
+  --color1: #8F6253; 
+  --color2: #D8C4B7; 
+  --color3: #4B322A; 
+  --color4: #BD9D87; 
+  --color5: #FFFFFF; 
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+  }
+  
+  .photo {
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;*/
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .photo img {
+    width: 100%;
+    display: block;
+  }
+  
+  .photo p {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+
+  @media (min-width: 760px) {
+    .gallery {
+    
+      
+    }
+
+    .photo img {
+      width: 100%;
+      display: block;
+    }
+  }
+
+ 

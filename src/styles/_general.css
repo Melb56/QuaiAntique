@@ -1,0 +1,80 @@
+:root {
+    --color1: #8F6253; 
+    --color2: #D8C4B7; 
+    --color3: #4B322A; 
+    --color4: #BD9D87; 
+    --color5: #FFFFFF; 
+}
+
+
+
+* {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: var(--color2);
+    margin: 0;
+}
+
+@font-face {
+    font-family: Josefin;
+    src: url('/public/font/JosefinSans-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: Roboto;
+    src: url('/public/font/Roboto-Regular.ttf');
+}
+
+h1 {
+    font-family: "Josefin", sans-serif;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: "Josefin", sans-serif;
+    text-align: center;
+    color: var(--color1);
+}
+
+
+h3{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+.btn {
+    all: unset;
+    display: flex;
+    justify-content: center;
+    
+    background: var(--color1);
+    font-family: "Roboto", sans-serif;
+    color: var(--color5);
+    border-radius: 5px;
+    margin: 0.5em;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--color3) ;
+    color: var(--color5);
+    transform: scale(1.1);
+}
+
+a:hover {
+    background-color: var(--color3) ;
+    color: var(--color5);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color5);
+}
+
